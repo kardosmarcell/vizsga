@@ -1,0 +1,31 @@
+cd git-vizsga: belépés a létrehozott mappába
+
+code .: létrehozott mappa megnyitása VS Code-ban
+
+touch .gitignore: .gitignore elnevezésű fájl létrehozása
+
+(.gitignore elnevezésű fájlban a *.txt, *.doc, *.docx és *.pdf fájlformátumok felvétele)
+
+touch readme.md: readme.md elnevezésű fájl létrehozása
+
+git branch console: console ág létrehozása
+
+git commit -m "readme.md, .gitignore fájl és console branch elkészítve"
+
+git checkout console: belépés a console ágba
+(itt: app.js módosítása)
+
+git status
+
+git add .
+
+git commit -m "app.js konzolüzenet beállítva"
+
+(itt: css/body/backgorund-image/rgb módosítása)
+git status
+
+git add .
+
+git commit -m "css háttérszín módosítása"
+
+git remote add origin
